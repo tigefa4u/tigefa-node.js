@@ -1,10 +1,10 @@
 {
   "name": "tigefa",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "tigefa provide command line like upload google drive dropbox",
   "main": "index.js",
   "scripts": {
-    "test": "tigefa test"
+    "test": "npm test"
   },
   "repository": {
     "type": "git",
