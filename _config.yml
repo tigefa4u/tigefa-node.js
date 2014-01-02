@@ -8,9 +8,7 @@ safe:             true
 lsi:              false
 pygments:         true
 timezone:         Asia/Jakarta
-markdown:         redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "codespan", "linebreak", "strikethrough", "superscript"]
+markdown:         kramdown
 
 # Routing configuration
 url:                   http://nodejs.tigefa.org
