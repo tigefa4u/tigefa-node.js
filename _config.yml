@@ -1,14 +1,14 @@
-# Site configuration
-name:         tigefa node.js
-tagline:      learn skill node.js app
-repo:         https://github.com/tigefa4u/tigefa-node.js
-
 # Extra Configuration
 safe:             true
 lsi:              false
 pygments:         false
 timezone:         Asia/Jakarta
 markdown:         kramdown
+
+# Site configuration
+name:         tigefa node.js
+tagline:      learn skill node.js app
+repo:         https://github.com/tigefa4u/tigefa-node.js
 
 # Routing configuration
 url:                   http://nodejs.tigefa.org
