@@ -17,5 +17,5 @@ permalink:             /articles/:title
 relative_permalinks:   false
 
 # Jekyll default configuration
-destination:   _gh_pages
+#destination:   _gh_pages
 exclude:       ['LICENSE', 'CNAME', 'Gemfile', 'Gemfile.lock', 'README.md']
