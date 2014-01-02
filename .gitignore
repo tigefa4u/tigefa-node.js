@@ -11,6 +11,9 @@ tmp/
 *.bak
 *.swp
 *~.nib
+_gh_pages
+_sites
+public
 local.properties
 .classpath
 .settings/

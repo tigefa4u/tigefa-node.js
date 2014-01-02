@@ -1,0 +1,23 @@
+# Site configuration
+name:         tigefa node.js
+tagline:      learn skill node.js app
+repo:         https://github.com/tigefa4u/tigefa-node.js
+
+# Extra Configuration
+safe:             true
+lsi:              false
+pygments:         false
+timezone:         Asia/Jakarta
+markdown:         redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "codespan", "linebreak", "strikethrough", "superscript"]
+
+# Routing configuration
+url:                   http://nodejs.tigefa.org
+#baseurl:               /tigefa-node.js
+permalink:             /articles/:title
+relative_permalinks:   false
+
+# Jekyll default configuration
+destination:   ./_gh_pages
+exclude:       [LICENSE, CNAME, Gemfile, Gemfile.lock, README.md]
