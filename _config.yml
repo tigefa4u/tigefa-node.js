@@ -1,4 +1,3 @@
-# Extra Configuration
 safe:             true
 lsi:              false
 pygments:         false
