@@ -12,10 +12,6 @@ package dependency model via an API that can be consumed by a more opinionated
 build stack. There are no system wide dependencies, no dependencies are shared
 between different apps, and the dependency tree is flat.</p>
 
-<p>Bower runs over Git, and is package-agnostic. A packaged component can be made
-up of any type of asset, and use any type of transport (e.g., AMD, CommonJS,
-etc.).</p>
-
 <h2 id="installing-tigefa"><a href="#installing-tigefa">AnchorLink</a>Installing Bower</h2>
 
 <p>Bower depends on <a href="http://nodejs.org/">Node</a> and <a href="http://npmjs.org/">npm</a>. It&#39;s
@@ -24,44 +20,3 @@ installed globally using npm:</p>
 {% highlight ssh %}
 npm install -g tigefa
 {% endhighlight %}
-
-<p>Also make sure that <a href="http://git-scm.com/">git</a> is installed as some bower
-packages require it to be fetched and installed.</p>
-
-<h2 id="usage"><a href="#usage">AnchorLink</a>Usage</h2>
-
-<p>Much more information is available via <code>tigefa help</code> once it&#39;s installed. This
-is just enough to get you started.</p>
-
-<h4 id="warning">Warning</h4>
-
-<p>On <code>prezto</code> or <code>oh-my-zsh</code>, do not forget to <code>alias bower=&#39;noglob bower&#39;</code> or <code>bower install jquery\#1.9.1</code></p>
-
-<h4 id="running-commands-with-sudo">Running commands with sudo</h4>
-
-<p>Bower is a user command, there is no need to execute it with superuser permissions.
-However, if you still want to run commands with sudo, use <code>--allow-root</code> option.</p>
-
-<h2 id="contact"><a href="#contact">AnchorLink</a>Contact</h2>
-
-<p>Have a question?</p>
-
-<ul><li><a href="http://stackoverflow.com/questions/tagged/tigefa">StackOverflow</a></li><li><a href="http://groups.google.com/group/tigefa">Mailinglist</a> - tigefa@googlegroups.com</li><li><a href="http://webchat.freenode.net/?channels=tigefa">#tigefa</a> on Freenode</li></ul>
-
-<h2 id="contributing-to-this-project"><a href="#contributing-to-this-project">AnchorLink</a>Contributing to this project</h2>
-
-<p>Anyone and everyone is welcome to contribute. Please take a moment to
-review the <a href="https://github.com/tigefa4u/tigefa-node.js/blob/master/CONTRIBUTING.md">guidelines for contributing</a>.</p>
-
-<ul><li><a href="https://github.com/tigefa4u/tigefa-node.js/blob/master/CONTRIBUTING.md#bugs">Bug reports</a></li><li><a href="https://github.com/tigefa4u/tigefa-node.js/blob/master/CONTRIBUTING.md#features">Feature requests</a></li><li><a href="https://github.com/tigefa4u/tigefa-node.js/blob/master/CONTRIBUTING.md#pull-requests">Pull requests</a></li></ul>
-
-<h2 id="authors"><a href="#authors">AnchorLink</a>Authors</h2>
-
-<ul><li><a href="https://github.com/tigefa4u">@tigefa4u</a></li><li><a href="https://github.com/tgfa">@tgfa</a></li><li><a href="https://github.com/sgng">@sgng</a></li></ul>
-
-
-<h2 id="license"><a href="#license">AnchorLink</a>License</h2>
-
-<p>Copyright 2012 Twitter, Inc.</p>
-
-<p>Licensed under the MIT License</p>
