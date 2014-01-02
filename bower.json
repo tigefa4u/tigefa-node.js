@@ -20,8 +20,8 @@
   ],
  "directory": "vendor",
  "dependencies": {
-    "font-awesome": "vendor/font-awesome",
-    "hightlightjs": "vendor/hightlightjs/index.js",
-    "holderjs": "vendor/holder/index.js"
+    "font-awesome": "FortAwesome/Font-Awesome",
+    "highlightjs": "components/highlightjs",
+    "holderjs": "imsky/holder"
   }
 }

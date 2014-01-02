@@ -1,8 +1,22 @@
-tigefa-node.js
-==============
+tigefa-node.js `gh-pages`
+========================
 
-npm install -g tigefa
+this branch for documentation is using @jekyll
 
-### Planning
+### `bundle` gems
 
-- Command line
+```ssh
+bundle install
+```
+
+### `bower`_components
+
+```ssh
+bower install
+```
+
+### now it `jekyll` serve
+
+```ssh
+jekyll serve -w
+```
