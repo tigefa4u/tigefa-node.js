@@ -81,6 +81,8 @@ build/
 *.tar.gz
 *.rar
 *.zip
+*.sql
+*.sqlite
 
 # Visual C++ cache files
 ipch/
