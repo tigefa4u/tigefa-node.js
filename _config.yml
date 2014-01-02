@@ -18,4 +18,4 @@ relative_permalinks:   false
 
 # Jekyll default configuration
 #destination:   _gh_pages
-exclude:       ['LICENSE', 'CNAME', 'Gemfile', 'Gemfile.lock', 'README.md']
+#exclude:       ['LICENSE', 'CNAME', 'Gemfile', 'Gemfile.lock', 'README.md']
